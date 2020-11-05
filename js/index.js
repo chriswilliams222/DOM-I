@@ -47,4 +47,27 @@ document.querySelector('nav a:nth-of-type(3)').textContent = 'Vision'
 document.querySelector('nav a:nth-of-type(4)').textContent = 'Features'
 document.querySelector('nav a:nth-of-type(5)').textContent = 'About'
 document.querySelector('nav a:nth-of-type(6)').textContent = 'Contact'
-document.querySelector('div h1').textContent = 'DOM'<br>'is'<br>'Awesome'
+//No break?
+document.querySelector('div h1').textContent = 'DOM Is Awesome'
+
+document.querySelector('div.cta-text button').textContent = 'Get Started'
+document.querySelector('img#cta-img').setAttribute('src',"img/header-img.png")
+document.querySelector('div.text-content h4').textContent = 'Features'
+document.querySelector('div.text-content p').textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+document.querySelector('div.text-content:nth-of-type(2) h4').textContent = 'About'
+document.querySelector('div.text-content:nth-of-type(2) p').textContent ='About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+document.querySelector('img.middle-img').setAttribute('src','img/mid-page-accent.jpg')
+
+document.querySelector('.bottom-content div.text-content h4').textContent = 'Services'
+document.querySelector('.bottom-content div.text-content p').textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metusnscelerisque quis.'
+document.querySelector('.bottom-content div.text-content:nth-of-type(2) h4').textContent = 'Product'
+document.querySelector('.bottom-content div.text-content:nth-of-type(2) p').textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+document.querySelector('.bottom-content div.text-content:nth-of-type(3) h4').textContent = 'Vision'
+document.querySelector('.bottom-content div.text-content:nth-of-type(3) p').textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+
+document.querySelector('.contact h4').textContent = 'Contact'
+document.querySelector('.contact p').textContent = '123 Way 456 Street Somewhere, USA'
+document.querySelector('.contact p:nth-of-type(2)').textContent = '1 (888) 888-8888'
+document.querySelector('.contact p:nth-of-type(3)').textContent = 'sales@greatidea.io'
+
+document.querySelector('footer p').textContent = 'Copyright Great Idea! 2018'
